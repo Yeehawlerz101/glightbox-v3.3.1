@@ -81,7 +81,8 @@ declare namespace Glightbox {
         config?: Config;
     }
 
-    interface Options {
+   export interface Options {
+    // exporting so I can use this is Astro And Other Frameworks
         /**
          * Name of the selector for example '.glightbox' or 'data-glightbox'
          * or '*[data-glightbox]'
